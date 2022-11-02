@@ -18,8 +18,8 @@ export var storyboard = (
         style={{
           backgroundColor: '#09f',
           position: 'absolute',
-          left: 99,
-          top: 132,
+          left: 184.5,
+          top: 11,
           width: 71,
           height: 91,
         }}
@@ -29,8 +29,19 @@ export var storyboard = (
         style={{
           backgroundColor: '#09f',
           position: 'absolute',
-          left: 99,
-          top: 236.5,
+          left: 16.5,
+          top: 11,
+          width: 71,
+          height: 91,
+        }}
+        data-uid='3a9'
+      />
+      <View
+        style={{
+          backgroundColor: '#09f',
+          position: 'absolute',
+          left: 184.5,
+          top: 246,
           width: 71,
           height: 91,
         }}
@@ -40,8 +51,8 @@ export var storyboard = (
         style={{
           backgroundColor: '#09f',
           position: 'absolute',
-          left: 86,
-          top: 28,
+          left: 10,
+          top: 246,
           width: 84,
           height: 91,
         }}
