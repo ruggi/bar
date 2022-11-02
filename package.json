@@ -1,5 +1,5 @@
 {
-  "name": "Utopia Project",
+  "name": "Utopia Projects",
   "version": "0.1.0",
   "utopia": {
     "main-ui": "utopia/storyboard.js",
