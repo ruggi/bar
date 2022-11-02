@@ -29,8 +29,8 @@ export var storyboard = (
         style={{
           backgroundColor: '#09f',
           position: 'absolute',
-          left: 191,
-          top: 256,
+          left: 15,
+          top: 245,
           width: 71,
           height: 91,
         }}
