@@ -29,6 +29,17 @@ export var storyboard = (
         style={{
           backgroundColor: '#09f',
           position: 'absolute',
+          left: 191,
+          top: 256,
+          width: 71,
+          height: 91,
+        }}
+        data-uid='65f'
+      />
+      <View
+        style={{
+          backgroundColor: '#09f',
+          position: 'absolute',
           left: 176,
           top: 132,
           width: 71,
