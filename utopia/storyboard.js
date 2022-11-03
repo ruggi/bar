@@ -5,7 +5,7 @@ export var storyboard = (
   <Storyboard data-uid='0cd'>
     <View
       style={{
-        backgroundColor: '#fee',
+        backgroundColor: '#f0f',
         position: 'absolute',
         left: -51,
         top: 72,
