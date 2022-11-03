@@ -1,5 +1,6 @@
 import { Storyboard } from 'utopia-api'
 import { View } from 'utopia-api'
+import * as React from 'react'
 
 export var storyboard = (
   <Storyboard data-uid='0cd'>
@@ -18,10 +19,10 @@ export var storyboard = (
         style={{
           backgroundColor: '#00F2FF',
           position: 'absolute',
-          left: 99,
-          top: 132,
-          width: 71,
-          height: 91,
+          left: 160,
+          top: 262,
+          width: 37,
+          height: 39,
         }}
         data-uid='480'
       />
@@ -29,8 +30,19 @@ export var storyboard = (
         style={{
           backgroundColor: '#00F2FF',
           position: 'absolute',
-          left: 99,
-          top: 237,
+          left: 27,
+          top: 262,
+          width: 37,
+          height: 39,
+        }}
+        data-uid='283'
+      />
+      <View
+        style={{
+          backgroundColor: '#00F2FF',
+          position: 'absolute',
+          left: 76,
+          top: 236,
           width: 71,
           height: 91,
         }}
@@ -40,13 +52,25 @@ export var storyboard = (
         style={{
           backgroundColor: '#00F2FF',
           position: 'absolute',
-          left: 86,
-          top: 28,
+          left: 76,
+          top: 139,
           width: 84,
           height: 91,
         }}
         data-uid='750'
       />
+      <button
+        style={{
+          position: 'absolute',
+          left: 143,
+          top: 59,
+          width: 108,
+          height: 59,
+        }}
+        data-uid='e05'
+      >
+        Hello
+      </button>
     </View>
   </Storyboard>
 )
