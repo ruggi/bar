@@ -8,7 +8,7 @@ export var Playground = () => {
           height: 150,
           position: 'absolute',
           left: 154,
-          top: 134,
+          top: 134, // hey
         }}
       >
         <img
