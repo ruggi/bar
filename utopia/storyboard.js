@@ -8,7 +8,7 @@ export var storyboard = (
         backgroundColor: '#e3e',
         position: 'absolute',
         left: -51,
-        top: 72,
+        top: 72,//
         width: 268,
         height: 355,
       }}
