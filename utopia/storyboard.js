@@ -35,7 +35,7 @@ export var storyboard = (
           height: 91,
         }}
         data-uid='168'
-      /> {/* oh */}
+      />
       <View
         style={{
           backgroundColor: '#09f',
