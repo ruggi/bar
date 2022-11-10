@@ -32,7 +32,7 @@ export var storyboard = (
           left: 99,
           top: 236.5,
           width: 71,
-          height: 91,
+          height: 91, // oh no!
         }}
         data-uid='168'
       />
