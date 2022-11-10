@@ -7,7 +7,7 @@ export function FlexRow({ children, style, ...props }) {
       style={{
         position: 'relative',
         display: 'flex',
-        flexDirection: 'row',
+        flexDirection: 'row', // heh
         ...style,
       }}
     >
