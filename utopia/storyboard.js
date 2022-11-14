@@ -1,54 +1,34 @@
-import { Storyboard } from 'utopia-api'
+import * as React from 'react'
+import { Scene, Storyboard } from 'utopia-api'
+import { App } from '/src/app.js'
+import { Playground } from '/src/playground.js'
 import { View } from 'utopia-api'
-import * as uuid from "uuid"
 
 export var storyboard = (
   <Storyboard data-uid='0cd'>
     <View
       style={{
-        backgroundColor: '#e3e',
+        backgroundColor: '#0091FFAA',
         position: 'absolute',
-        left: -51,
-        top: 72,
-        width: 268,
-        height: 355,
+        left: -302,
+        top: 48,
+        width: 279,
+        height: 382,
       }}
-      data-uid='48d'
+      data-uid='adb'
     >
       <View
+        className='rounded-xl shadow-xl'
         style={{
-          backgroundColor: '#09f',
+          backgroundColor: '#0091FFAA',
           position: 'absolute',
-          left: 99,
-          top: 132,
-          width: 71,
-          height: 91,
+          left: 51,
+          top: 65,
+          width: 175,
+          height: 197,
         }}
-        data-uid='480'
+        data-uid='42d'
       />
-      <View
-        style={{
-          backgroundColor: '#09f',
-          position: 'absolute',
-          left: 99,
-          top: 236.5,
-          width: 71,
-          height: 91, // oh no!
-        }}
-        data-uid='168'
-      />
-      <View
-        style={{
-          backgroundColor: '#09f',
-          position: 'absolute',
-          left: 86,
-          top: 28,
-          width: 84,
-          height: 91,
-        }}
-        data-uid='750'
-      />
-      {uuid.v4()}
     </View>
   </Storyboard>
 )
