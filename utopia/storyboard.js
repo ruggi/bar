@@ -3,32 +3,47 @@ import { Scene, Storyboard } from 'utopia-api'
 import { App } from '/src/app.js'
 import { Playground } from '/src/playground.js'
 import { View } from 'utopia-api'
+import uuid from 'react-uuid'
+
+const UUID = () => {
+  const uid = React.useMemo(() => uuid(), [])
+  return (
+    <div
+      data-uid='33d'
+      className='font-mono text text-center text-gray-300 uppercase'
+    >
+      {uid}
+    </div>
+  )
+}
 
 export var storyboard = (
   <Storyboard data-uid='0cd'>
     <View
       style={{
-        backgroundColor: '#0091FFAA',
+        backgroundColor: '#09f',
         position: 'absolute',
-        left: -302,
-        top: 48,
+        left: -332,
+        top: -204,
         width: 279,
         height: 382,
       }}
       data-uid='adb'
     >
       <View
-        className='rounded-xl shadow-xl'
+        className='rounded-2xl shadow-xl flex items-center justify-center'
         style={{
-          backgroundColor: '#0091FFAA',
-          position: 'absolute', // uh uh uh
-          left: 51,
-          top: 65,
+          backgroundColor: '#FFFFFF',
+          position: 'absolute',
+          left: 52,
+          top: 93,
           width: 175,
           height: 197,
         }}
         data-uid='42d'
-      />
+      >
+        <UUID data-uid='b11' />
+      </View>
     </View>
   </Storyboard>
 )
