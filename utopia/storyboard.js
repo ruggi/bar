@@ -21,7 +21,7 @@ export var storyboard = (
         className='rounded-xl shadow-xl'
         style={{
           backgroundColor: '#0091FFAA',
-          position: 'absolute',
+          position: 'absolute', // uh uh uh
           left: 51,
           top: 65,
           width: 175,
