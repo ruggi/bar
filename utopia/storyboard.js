@@ -22,9 +22,6 @@ export var storyboard = (
     <View
       style={{
         backgroundColor: '#09f',
-        position: 'absolute',
-        left: -332,
-        top: -204,
         width: 279,
         height: 382,
       }}
