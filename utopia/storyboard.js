@@ -1,5 +1,6 @@
 import { Storyboard } from 'utopia-api'
 import { View } from 'utopia-api'
+import * as uuid from "uuid"
 
 export var storyboard = (
   <Storyboard data-uid='0cd'>
@@ -47,6 +48,7 @@ export var storyboard = (
         }}
         data-uid='750'
       />
+      {uuid.v4()}
     </View>
   </Storyboard>
 )
