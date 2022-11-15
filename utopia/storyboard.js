@@ -1,7 +1,5 @@
 import * as React from 'react'
-import { Scene, Storyboard } from 'utopia-api'
-import { App } from '/src/app.js'
-import { Playground } from '/src/playground.js'
+import { Storyboard } from 'utopia-api'
 import { View } from 'utopia-api'
 import uuid from 'react-uuid'
 
