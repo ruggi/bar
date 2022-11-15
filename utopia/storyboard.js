@@ -11,6 +11,7 @@ const UUID = () => {
       className='font-mono text text-center text-gray-300 uppercase'
     >
       {uid}
+      {uid}
     </div>
   )
 }
