@@ -21,7 +21,7 @@ export var storyboard = (
       style={{
         backgroundColor: '#0f9',
         width: 279,
-        height: 382,
+        height: 382, // asd
       }}
       data-uid='adb'
     >
