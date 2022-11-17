@@ -10,7 +10,7 @@ const UUID = () => {
       data-uid='33d'
       className='font-mono text text-center text-gray-300 uppercase'
     >
-      {uid}
+      {uid} asd asd asd
     </div>
   )
 }
