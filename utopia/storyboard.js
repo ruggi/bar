@@ -18,7 +18,7 @@ const UUID = () => {
 export var storyboard = (
   <Storyboard data-uid='0cd'>
     <View
-      style={{
+      style={{ // asd
         backgroundColor: '#8C00FF',
         width: 279,
         height: 382,
