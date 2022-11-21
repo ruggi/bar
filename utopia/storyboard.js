@@ -19,7 +19,7 @@ export var storyboard = (
   <Storyboard data-uid='0cd'>
     <View
       style={{
-        backgroundColor: '#E387FF',
+        backgroundColor: '#FFA787',
         width: 279,
         height: 382,
       }}
