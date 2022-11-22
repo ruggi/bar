@@ -22,7 +22,7 @@ export var storyboard = (
         backgroundColor: '#FFA787',
         width: 279,
         height: 382,
-        borderRadius: 20,
+        borderRadius: '31px',
       }}
       data-uid='adb'
     >
