@@ -40,5 +40,18 @@ export var storyboard = (
         <UUID data-uid='b11' />
       </View>
     </View>
+    <img
+      data-aspect-ratio-locked
+      src='./assets/revert-modal-all.png'
+      style={{
+        position: 'absolute',
+        width: 466,
+        height: 242,
+        top: 342,
+        left: -164,
+        transform: "rotate(-15deg)"
+      }}
+      data-uid='53e'
+    />
   </Storyboard>
 )
