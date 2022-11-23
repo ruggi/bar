@@ -47,9 +47,9 @@ export var storyboard = (
         position: 'absolute',
         width: 466,
         height: 242,
-        top: 342,
-        left: -164,
-        transform: "rotate(-15deg)"
+        top: 223,
+        left: -246.5,
+        transform: 'rotate(-15deg)',
       }}
       data-uid='53e'
     />
