@@ -65,5 +65,30 @@ export var storyboard = (
       }}
       data-uid='987'
     />
+    <img
+      data-aspect-ratio-locked
+      src='./assets/Screenshot 2022-11-23 at 1.48.55 PM.png'
+      style={{
+        position: 'absolute',
+        width: 264,
+        height: 202,
+        top: 502,
+        left: -217.5,
+      }}
+      data-uid='f04'
+    />
+    <img
+      alt=''
+      src='./assets/Screenshot 2022-11-23 at 2.02.49 PM.png'
+      style={{
+        position: 'absolute',
+        left: -339,
+        top: 18,
+        width: 228,
+        height: 190,
+      }}
+      data-uid='382'
+      data-aspect-ratio-locked
+    />
   </Storyboard>
 )
