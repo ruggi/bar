@@ -53,5 +53,17 @@ export var storyboard = (
       }}
       data-uid='53e'
     />
+    <img
+      data-aspect-ratio-locked
+      src='./assets/Screenshot 2022-11-23 at 1.31.28 PM.png'
+      style={{
+        position: 'absolute',
+        width: 77,
+        height: 112,
+        top: 41,
+        left: -124,
+      }}
+      data-uid='987'
+    />
   </Storyboard>
 )
