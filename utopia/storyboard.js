@@ -32,17 +32,16 @@ export var storyboard = (
       <App style={{}} data-uid='a28' />
     </Scene>
     <img
-      alt=''
-      src='./assets/Screenshot 2022-11-24 at 2.47.07 PM.png'
+      data-aspect-ratio-locked
+      src='./assets/Screenshot 2022-11-24 at 3.07.27 PM.png'
       style={{
         position: 'absolute',
-        left: -101,
-        top: 338,
-        width: 224,
-        height: 214,
+        width: 96,
+        height: 76,
+        top: 138,
+        left: -88,
       }}
-      data-uid='893'
-      data-aspect-ratio-locked
+      data-uid='c39'
     />
   </Storyboard>
 )
