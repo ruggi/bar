@@ -20,7 +20,7 @@ export var storyboard = (
     <View
       style={{
         backgroundColor: '#8C00FF',
-        width: 274,
+        width: 273,
         height: 382,
       }}
       data-uid='adb'
