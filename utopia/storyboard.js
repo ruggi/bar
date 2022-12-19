@@ -7,7 +7,7 @@ const UUID = () => {
   const uid = React.useMemo(() => uuid(), [])
   return (
     <div
-      data-uid='33d'
+      data-uid='35d'
       className='font-mono text text-center text-gray-300 uppercase'
     >
       {uid}
@@ -20,7 +20,7 @@ export var storyboard = (
     <View
       style={{
         backgroundColor: '#8C00FF',
-        width: 278,
+        width: 279,
         height: 382,
       }}
       data-uid='adb'
