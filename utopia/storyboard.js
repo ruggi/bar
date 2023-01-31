@@ -2,20 +2,46 @@ import * as React from 'react'
 import { Scene, Storyboard } from 'utopia-api'
 import { App } from '/src/app.js'
 import { Playground } from '/src/playground.js'
+import { View } from 'utopia-api'
 
 export var storyboard = (
   <Storyboard data-uid='0cd'>
-    <img
-      data-aspect-ratio-locked
-      src='./assets/Screenshot 2022-11-25 at 12.33.04 PM.png'
+    <Scene
       style={{
+        width: 700,
+        height: 759,
         position: 'absolute',
-        width: 68,
-        height: 63,
-        top: 813.5,
-        left: 75,
+        left: 212,
+        top: 128,
       }}
-      data-uid='44a'
+      data-label='Playground'
+      data-uid='3fc'
+    >
+      <Playground style={{}} data-uid='d9d' />
+    </Scene>
+    <Scene
+      style={{
+        width: 744,
+        height: 1133,
+        position: 'absolute',
+        left: 1036,
+        top: 128,
+      }}
+      data-label='My App'
+      data-uid='2c5'
+    >
+      <App style={{}} data-uid='a28' />
+    </Scene>
+    <View
+      style={{
+        backgroundColor: '#aaaaaa33',
+        position: 'absolute',
+        left: -181,
+        top: 278,
+        width: 246,
+        height: 288,
+      }}
+      data-uid='d01'
     />
   </Storyboard>
 )
