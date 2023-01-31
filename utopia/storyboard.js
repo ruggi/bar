@@ -10,8 +10,8 @@ export var storyboard = (
       style={{
         backgroundColor: '#aaaaaa33',
         position: 'absolute',
-        width: 200,
-        height: 200,
+        width: 201,
+        height: 201,
         backgroundColor: '#f09',
       }}
       data-uid='d01'
