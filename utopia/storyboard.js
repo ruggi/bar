@@ -6,40 +6,13 @@ import { View } from 'utopia-api'
 
 export var storyboard = (
   <Storyboard data-uid='0cd'>
-    <Scene
-      style={{
-        width: 700,
-        height: 759,
-        position: 'absolute',
-        left: 212,
-        top: 128,
-      }}
-      data-label='Playground'
-      data-uid='3fc'
-    >
-      <Playground style={{}} data-uid='d9d' />
-    </Scene>
-    <Scene
-      style={{
-        width: 744,
-        height: 1133,
-        position: 'absolute',
-        left: 1036,
-        top: 128,
-      }}
-      data-label='My App'
-      data-uid='2c5'
-    >
-      <App style={{}} data-uid='a28' />
-    </Scene>
     <View
       style={{
         backgroundColor: '#aaaaaa33',
         position: 'absolute',
-        left: -181,
-        top: 278,
-        width: 246,
-        height: 288,
+        width: 200,
+        height: 200,
+        backgroundColor: '#f09',
       }}
       data-uid='d01'
     />
